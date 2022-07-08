@@ -1,0 +1,119 @@
+nav{
+position:sticky;
+background-color: rgb(37, 37, 227, 0.91);    
+color:white;
+font-family:Roboto,Arial,sans-serif;
+font-weight:500px;
+height:8vh;
+}
+ul{
+    display:ruby-base;
+    list-style: none;
+}
+a{ 
+    margin-left:25px;
+    text-decoration: none;
+    font-family:Roboto,Arial,sans-serif;
+    color:white;
+}
+.search{
+    margin-left:25px;
+    width:400px;
+    height:23px;
+    border-radius: 6px;
+}
+#flip{
+    width:165px;
+    height:32px;  
+    position:absolute; top:11px; left:1217px ; 
+    border-radius: 4px;
+}
+/* for making the navbar touch the edges of screen */
+body{
+    margin:0;
+    padding:0;
+    /* position:relative; */
+}
+.btn{
+    margin-left:4px;
+    padding:5px 10px;
+    align-content:center;
+    background-color:rgb(37, 37, 227, 0.91);
+    border-color: white;
+    color:white;
+    border-width:2px;
+    border-radius:2px;
+    cursor:pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cred{
+    width:100vw;
+    height:20vh;
+    background-color:rgb(37, 37, 227, 0.91);
+    display:block;
+    bottom:0px;
+    color:white;
+    /* margin-top:100vh; */
+    position:inherit;
+    text-align: center;
+}
+#slimg{
+    /* margin:5vh 10vw 70vh 10vw; */
+    min-width:80vw;
+    min-height:50vh;
+
+}
+.cont{
+    width:auto;
+}
+
+.slider{
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+.cards{
+    display:flex;
+    overflow-x:scroll;
+    scrollbar-width:thin;
+}
+.item{
+    display:block;
+    margin-left:3vw;
+    margin-top:5vh;
+    height:30vh;
+    min-width:12vw;
+    width:12vw;
+    text-align: center;
+    background-color: rgb(243, 240, 240);
+    border-width:2px;
+    border-radius:12px;
+    border-color:rgba(237, 235, 235, 0.797);
+    /* transition */
+    transition:ease-in 0.3s;
+    transition-duration :4px;
+    /* transition-timing-function; */
+}
+.item:hover{
+    width:16vw;
+    height:35vh;
+    z-index:auto;
+}
+img{
+    margin-top:1px;
+    max-width: 11vw;
+    border-radius: 18px;
+    max-height: 28vh;
+}
+#myb{
+color:rgb(37, 37, 227, 0.91);
+}
+#ss{
+    align-content: center;
+    display:grid;
+  /* transition:transform(0px,4px); */
+  margin-top: 4px;
+  margin-left:8px;
+  color:rgb(37, 37, 227, 0.91);
+}
